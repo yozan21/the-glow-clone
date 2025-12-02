@@ -33,13 +33,13 @@ export default function StoriesCards({ viewPort }) {
       case 0:
         return "z-20 scale-[1.30] opacity-100 translate-x-[1%] md:translate-x-[5%]"; // center
       case 1:
-        return "z-10 translate-x-[128%]";
+        return "z-10 translate-x-[129%]";
       case 2:
-        return "z-0 translate-x-[235%]";
+        return "z-0 translate-x-[238%]";
       case total - 1:
-        return "z-10 -translate-x-[117%]";
+        return "z-10 -translate-x-[120%]";
       case total - 2:
-        return "z-0 -translate-x-[233%]";
+        return "z-0 -translate-x-[230%]";
       default:
         return "opacity-0 pointer-events-none";
     }
@@ -75,7 +75,7 @@ export default function StoriesCards({ viewPort }) {
             <div className="relative">
               <img
                 src={user.image}
-                className="h-[350px] rounded-xl object-cover md:h-[250px]"
+                className="h-[350px] rounded-xl object-cover md:h-[250px] md:w-50"
               />
               <div className="absolute top-3 left-2">
                 <GlassContainer

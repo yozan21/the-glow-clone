@@ -35,7 +35,7 @@ function Hero({ viewPort }) {
             <span className="-ml-1.5 flex h-6 w-6 items-center justify-center rounded-4xl border border-s-0 border-e-0 border-t-white border-b-white text-[11px] backdrop-blur-[80px]">
               1K+
             </span>
-            <p className="ml-1.5 text-[11px] tracking-wide uppercase">
+            <p className="ml-1.5 text-[10px] tracking-wide uppercase">
               Happy Clients
             </p>
           </GlassContainer>

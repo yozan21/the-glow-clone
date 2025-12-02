@@ -1,6 +1,5 @@
 function InspoCard({ inspo }) {
   return (
-    //
     <div className="group relative flex-1 overflow-clip text-nowrap transition-all duration-800 hover:flex-2">
       <img
         src={inspo.image}
