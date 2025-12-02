@@ -1,6 +1,8 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   safelist: [
+    //Text values
+    "text-[10px]",
     // All z-index values you use
     "z-0",
     "z-10",
