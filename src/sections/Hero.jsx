@@ -6,7 +6,7 @@ function Hero({ viewPort }) {
   return (
     <section
       id="home"
-      className="mb-9 flex aspect-video h-125 flex-col justify-end bg-[url(./hero.png)] bg-cover bg-top bg-no-repeat px-6 text-white md:mb-12 md:h-full md:w-full md:items-start md:justify-end md:bg-contain md:bg-center md:px-8 md:pb-6"
+      className="mb-9 flex aspect-video h-125 flex-col justify-end bg-[url(/hero.png)] bg-cover bg-top bg-no-repeat px-6 text-white md:mb-12 md:h-full md:w-full md:items-start md:justify-end md:bg-contain md:bg-center md:px-8 md:pb-6"
     >
       <div className="flex flex-col justify-end gap-6 md:w-100 md:gap-0.5">
         <h3 className="text-sm font-medium uppercase md:text-[11px]">
